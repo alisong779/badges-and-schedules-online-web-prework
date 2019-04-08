@@ -17,7 +17,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  list = []
- attendees.each_with_index do |x, y| list << "#{batch_badge_creator(attendees) 
+ batch_badge_creator(attendees)
 end
 end 
