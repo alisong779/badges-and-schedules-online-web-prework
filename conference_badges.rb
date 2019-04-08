@@ -17,11 +17,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  arr = []
-  attendees.each_with_index do |a| batch_badge_creator(attendees) assign_rooms(attendees)
-  arr << a
-
-  return arr
-end
+ puts batch_badge_creator
+ attendees.each do |x| printer(attendees)
 end
 
