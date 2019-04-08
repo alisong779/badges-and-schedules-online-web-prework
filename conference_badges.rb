@@ -17,7 +17,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  list = []
- attendees.each 
+   
 end
 end 
