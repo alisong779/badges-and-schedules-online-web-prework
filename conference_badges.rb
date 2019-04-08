@@ -18,7 +18,6 @@ end
 
 def printer(attendees)
   list = []
- attendees.each_with_index do |x| puts batch_badge_creator(attendees) 
- list << x
+ attendees.each_with_index do |x, y| list << "#{batch_badge_creator(attendees) 
 end
 end 
