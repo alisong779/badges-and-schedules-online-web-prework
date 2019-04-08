@@ -25,4 +25,3 @@ def printer(attendees)
      print x 
   end 
 end
-end 
