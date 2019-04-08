@@ -20,6 +20,5 @@ def printer(attendees)
   list = []
  attendees.each_with_index do |x| puts batch_badge_creator 
  list << x
- list
 end
 end 
